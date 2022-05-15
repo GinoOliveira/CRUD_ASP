@@ -2,9 +2,11 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+
+   
 }
 
 /* Provide sufficient contrast against white background */
@@ -58,14 +60,147 @@ html {
   min-height: 100%;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+.body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: linear-gradient(black, #353535);
+    
 }
 .footer {
+  color: white;
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.text-center {
+    display: flex;
+    color: white;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 400px;
+    color: #fff;
+    animation: flipTitle 2s;
+}
+
+.btn-criar {
+    width: 10px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-criar a {
+    color: white;
+  
+}
+
+.btn-Edit {
+    background-color: #FFA500;
+    color: white;
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-success {
+    background-color: #006400;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn btn-danger {
+    background-color: #A52A2A;
+    color: white;
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-Details {
+    background-color: #4682B4;
+    color: white;
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-Delete {
+    background-color: #A52A2A;
+    color: white;
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+.btn-Delete1 {
+    background-color: #A52A2A;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+td a:hover{
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg);
+    }
+
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.container-nav {
+    background-color: #232323;
+    color: white;
+    width: 10px;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.h1-index {
+    color: white;
+    font-size: 25px;
+}
+
+.h4 {
+    color: white;
+    font-size: 18px;
+}
+
